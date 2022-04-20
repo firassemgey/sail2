@@ -43,9 +43,10 @@
 
   function handlePreloader() {
     if($('.preloader').length){
-      $('.preloader').delay(500).fadeOut(500);
+		 alert($('.preloader').length);
+      $('.preloader').delay(250).fadeOut(250);
       $('body').removeClass('page-load');
-	  alert($('.preloader').length);
+	 
     }
   } 
 
