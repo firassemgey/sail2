@@ -43,16 +43,15 @@
 
   function handlePreloader() {
     if($('.preloader').length){
-		 alert($('.preloader').length);
-      $('.preloader').delay(250).fadeOut(250);
+      $('.preloader').delay(500).fadeOut(500);
       $('body').removeClass('page-load');
 	 
     }
   } 
+   handlePreloader();
 
-  $window.on('load', function() {
-    handlePreloader();
-  });
+ 
+ 
 
 //=====================================================================================
 // 02.  Scroll Top
