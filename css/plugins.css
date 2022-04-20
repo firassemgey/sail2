@@ -1293,7 +1293,7 @@ xpush
   border-radius: 0%;
   border: none;
   animation-name: anim, color;
-  animation-duration: 5s;
+  animation-duration: 2s;
   animation-timing-function:ease;
   animation-iteration-count:infinite;
   animation-direction: alternate;
