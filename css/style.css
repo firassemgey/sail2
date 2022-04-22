@@ -914,7 +914,29 @@ ul#menu li a{
 	opacity:0;
 	visibility:hidden;
 }
-
+.macStayl{
+    border: 10px lightgray solid;
+    border-radius: 15px;
+    background-color: lightgray;
+}
+.macStayl p{
+    left: -10px;
+    position: absolute;
+}
+.macStaylbutton{
+    height: 14px;
+}
+.dot {
+    height: 10px;
+    width: 10px;
+    margin: 0 20px;
+    border-radius: 50%;
+    display: block;
+}
+.macStaylImg{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+}
 .default-portfolio-item .overlay-box span{
 	position:absolute;
 	left:0px;
@@ -966,7 +988,8 @@ ul#menu li a{
 	padding-right: 5px;
 }
 .overlay-box{
-	border:5px solid
+	border:5px solid;
+    border-radius: 10px;
 }
 /*============================================================================
 18.   Pricing
